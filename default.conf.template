@@ -2,6 +2,6 @@ server {
     listen       80;
 
     location / {
-        return      301 https://$http_url_redirect;
+        return      301 $REDIRECT_TO_URL;
     }
 }
